@@ -44,10 +44,11 @@ sf org login web -d -a myhuborg
 
 ## Instalacion
 
-Primer paso es clonar este repo
+Primer paso es hacer un fork del repo
+
 
 ```
-git clone https://github.com/sebastianclaros/autoforce-test.git
+git clone https://github.com/<<owner>>/autoforce-test.git
 ```
 
 cd autoforce-test
@@ -76,9 +77,41 @@ Respondemos con la siguiente informacion
 Ahora el configurador va a validar que existan las variables de entorno
 
 
-## Uso de la herramienta
+## Tours en el uso de la herramienta
+
+Vamos ir explorando los distintos caminos del desarrollo, empezamos por el primer paso.
+
+
+### 1. Crear una Requerimiento y dejarlo en el Backlog
+
+Para crear un requerimiento usamos el comando "new". 
+
+```
+npx autoforce new 
+```
+
+De la lista de posibilidades elejimos "issue", o bien se puede pasar issue como ultimo argumento.
+
+A continuacion respondemos las preguntas por ejemplo:
+
+Respondemos con la siguiente informacion
+
+✔ Por favor ingrese title? … Actualizar el Readme
+✔ Por favor ingrese label? › Documentation
+
+
+Al finalizar si hay errores deberiamos tener en el project un issue nuevo con el Label "Documentacion".
+
+Posibles errores pueden ser que no este bien configurado el token para acceder a la API de Gestion de Proyecto o bien que no este bien configurado el "✔Id del proyecto … 5".
+
+
+
+
+## Errores comunes
 
 
 ```
-npx autoforce list
+npx autoforce status
 ```
+
+
