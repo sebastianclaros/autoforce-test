@@ -3,6 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "Salesforce App",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianclaros/autoforce-test.git"
+  },
   "scripts": {
     "lint": "eslint **/{aura,lwc}/**/*.js",
     "test": "npm run test:unit",
