@@ -1,6 +1,12 @@
 {
-  "model": "modelA",
   "gitServices": "github",
   "projectServices": "github",
-  "projectId": "5"
+  "projectId": "5",
+  "backlogColumn": "Todo",
+  "devModel": "scratchs",
+  "docModel": "processes",
+  "projectModel": "github-releases",
+  "gitModel": "githubflow",
+  "listFilter": "mios",
+  "listTemplate": "openIssues"
 }

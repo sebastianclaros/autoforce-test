@@ -1,0 +1,1 @@
+npx autoforce config --gitServices="github" --projectServices="github" --projectId="5" --backlogColumn="Todo" --devModel="scratchs" --docModel="processes" --projectModel="github-releases" --gitModel="githubflow" --listFilter="mios" --listTemplate="openIssues"
