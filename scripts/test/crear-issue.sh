@@ -1,1 +1,1 @@
-npx autoforce new issue --title="Test" --label="enhacement" --milestone="Niguno" --body="Cuerpo del Issue"
+npx autoforce new issue --title="Test" --label="enhacement" --milestone="v0.1" --body="Cuerpo del Issue"

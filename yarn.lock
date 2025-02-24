@@ -1067,16 +1067,16 @@
     fastq "^1.6.0"
 
 "@octokit/app@^15.1.4":
-  version "15.1.4"
-  resolved "https://registry.yarnpkg.com/@octokit/app/-/app-15.1.4.tgz#d065a95ca282271cce374e64fd985a115b43ca46"
-  integrity sha512-PM1MqlPAnItjQIKWRmSoJu02+m7Eif4Am3w5C+Ctkw0//QETWMbW2ejBZhcw3aS7wRcFSbS+lH3NoYm614aZVQ==
+  version "15.1.5"
+  resolved "https://registry.yarnpkg.com/@octokit/app/-/app-15.1.5.tgz#ee54ee2cd45ad5cc24081ac697e6585ac151ac00"
+  integrity sha512-6cxLT9U8x7GGQ7lNWsKtFr4ccg9oLkGvowk373sX9HvX5U37kql5d55SzaQUxPE8PwgX2cqkzDm5NF5aPKevqg==
   dependencies:
     "@octokit/auth-app" "^7.1.5"
     "@octokit/auth-unauthenticated" "^6.1.2"
     "@octokit/core" "^6.1.4"
     "@octokit/oauth-app" "^7.1.6"
     "@octokit/plugin-paginate-rest" "^11.4.2"
-    "@octokit/types" "^13.6.2"
+    "@octokit/types" "^13.8.0"
     "@octokit/webhooks" "^13.6.1"
 
 "@octokit/auth-app@^7.1.5":
@@ -1531,9 +1531,9 @@
     form-data "^4.0.0"
 
 "@types/node@*", "@types/node@>=4.0":
-  version "22.13.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.4.tgz#3fe454d77cd4a2d73c214008b3e331bfaaf5038a"
-  integrity sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==
+  version "22.13.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.13.5.tgz#23add1d71acddab2c6a4d31db89c0f98d330b511"
+  integrity sha512-+lTU0PxZXn0Dr1NBtC7Y8cR21AJr87dLLU953CWA6pMxxv/UDc7jYAY90upcrie1nRcD6XNG5HOYEDtgW5TxAg==
   dependencies:
     undici-types "~6.20.0"
 
@@ -1943,9 +1943,9 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 autoforce@^0.1.14:
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/autoforce/-/autoforce-0.1.19.tgz#48b8be92b27046648ed4c42506bcbdd1b2e4e558"
-  integrity sha512-Zkh21j/Gh6oSXTt6B5yqQL81DjXSnEdpssrZ0JR07kI2MHv4iNH5gRgvyEmlooizFa6TKjW5VGr/4yK2Nq5p8Q==
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/autoforce/-/autoforce-0.1.22.tgz#b4a67ec2618023d8739d31ffbb22cc6450975586"
+  integrity sha512-udUlmZBot0XC3HC7X3Dq/7VgGNVTDV2NcdKX+ru/64lvNVdjhMV4Ibsuea2XUEXuPu6WbJL5K4XVUWcnhYePpw==
   dependencies:
     "@types/jsforce" "^1.11.5"
     "@types/prompts" "^2.4.9"
@@ -4294,9 +4294,9 @@ jsesc@^3.0.2:
   integrity sha512-xKqzzWXDttJuOcawBt4KnKHHIf5oQ/Cxax+0PWFG+DFDgHNAdi+TXECADI+RYiFUMmx8792xsMbbgXj4CwnP4g==
 
 jsforce@^3.4.1:
-  version "3.6.4"
-  resolved "https://registry.yarnpkg.com/jsforce/-/jsforce-3.6.4.tgz#9a6e810f012aa6ba433b5b493bbc8d14be14fcbf"
-  integrity sha512-H2DvpFoMO6QHuUxDbTaXv3jIlg88r9/ki4N0xSGIwvvJZNsXlHhyKyEroDOa4jhQ7UkVigh7xBDXQXf3fHU5OA==
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/jsforce/-/jsforce-3.6.5.tgz#b8c439904efd0a33f9c26f8dc763f890060c2e10"
+  integrity sha512-xa3d5BnXXfjcIBP4kXwpe+nzpFhuX8hIz0plSqpz86CmEDySwgX7pmmi3xyN8hd/EuB0cw1oAOqr+wjoEJ0WbQ==
   dependencies:
     "@babel/runtime" "^7.23.1"
     "@babel/runtime-corejs3" "^7.23.1"
@@ -4765,9 +4765,9 @@ open@^7.0.0:
     is-wsl "^2.1.1"
 
 openai@^4.54.0:
-  version "4.85.2"
-  resolved "https://registry.yarnpkg.com/openai/-/openai-4.85.2.tgz#370702c56cd61c17c44c8c02c6a48229d5299903"
-  integrity sha512-ZQg3Q+K4A6M9dLFh5W36paZkZBQO+VbxMNJ1gUSyHsGiEWuXahdn02ermqNV68LhWQxdJQaWUFRAYpW/suTPWQ==
+  version "4.85.3"
+  resolved "https://registry.yarnpkg.com/openai/-/openai-4.85.3.tgz#1d81819060102c2861bae1b67155f60866e262a8"
+  integrity sha512-KTMXAK6FPd2IvsPtglMt0J1GyVrjMxCYzu/mVbCPabzzquSJoZlYpHtE0p0ScZPyt11XTc757xSO4j39j5g+Xw==
   dependencies:
     "@types/node" "^18.11.18"
     "@types/node-fetch" "^2.6.4"
@@ -5478,17 +5478,17 @@ through@^2.3.6:
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
   integrity sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==
 
-tldts-core@^6.1.77:
-  version "6.1.77"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.77.tgz#0fa4563163a7a61d72c4b05650fb66fc7e815500"
-  integrity sha512-bCaqm24FPk8OgBkM0u/SrEWJgHnhBWYqeBo6yUmcZJDCHt/IfyWBb+14CXdGi4RInMv4v7eUAin15W0DoA+Ytg==
+tldts-core@^6.1.78:
+  version "6.1.78"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.78.tgz#47b477d9742870daa01dbd5ff9a598a48379728c"
+  integrity sha512-jS0svNsB99jR6AJBmfmEWuKIgz91Haya91Z43PATaeHJ24BkMoNRb/jlaD37VYjb0mYf6gRL/HOnvS1zEnYBiw==
 
 tldts@^6.1.32:
-  version "6.1.77"
-  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.77.tgz#714e3d1989e562886f2ed97b65e95a8e9f9e92d9"
-  integrity sha512-lBpoWgy+kYmuXWQ83+R7LlJCnsd9YW8DGpZSHhrMl4b8Ly/1vzOie3OdtmUJDkKxcgRGOehDu5btKkty+JEe+g==
+  version "6.1.78"
+  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.78.tgz#ee94576653a60d421ff94162c4e9060f2e62467b"
+  integrity sha512-fSgYrW0ITH0SR/CqKMXIruYIPpNu5aDgUp22UhYoSrnUQwc7SBqifEBFNce7AAcygUPBo6a/gbtcguWdmko4RQ==
   dependencies:
-    tldts-core "^6.1.77"
+    tldts-core "^6.1.78"
 
 tmp@^0.0.33:
   version "0.0.33"

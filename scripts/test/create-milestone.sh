@@ -1,0 +1,1 @@
+npx autoforce new milestone --noprompt --title="v.$((1 + $RANDOM % 100)).$((1 + $RANDOM % 1000))" 
