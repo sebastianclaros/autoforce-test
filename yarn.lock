@@ -1943,9 +1943,9 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 autoforce@^0.1.14:
-  version "0.1.25"
-  resolved "https://registry.yarnpkg.com/autoforce/-/autoforce-0.1.25.tgz#d7894b8f822888b73a90d3c337cc4c8f31b8d9e3"
-  integrity sha512-epg7Gdok/PPcNirpt/K1Pl9Jd9V3Vzu6Zxx6nsTMa2qN79yFLRet4n2R8jrTMg6uyiL417C97oLPMrfUR5sXwQ==
+  version "0.1.26"
+  resolved "https://registry.yarnpkg.com/autoforce/-/autoforce-0.1.26.tgz#5626a28c99773960eeace2e9698770f79454b647"
+  integrity sha512-3Qh6k05idBiHJm/QR6GMiXa56mxx8n45F3xmpUkT9p1+fR9VOwdLcDJQUDIi1va6zz/DAR6f4sGM7yQxkHZzyw==
   dependencies:
     "@types/jsforce" "^1.11.5"
     "@types/prompts" "^2.4.9"
