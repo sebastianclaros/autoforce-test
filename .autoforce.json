@@ -8,6 +8,6 @@
   "projectModel": "github-releases",
   "gitModel": "githubflow",
   "listFilter": "mios",
-  "permissionSet": "",
+  "permissionSet": "admin",
   "listTemplate": "openIssues"
 }
