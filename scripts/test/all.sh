@@ -6,6 +6,7 @@ version=$(npx autoforce version)
 version="${version// /_}"
 
 ${script_full_path}/upgrade.sh
+
 ${script_full_path}/reset.sh
 ${script_full_path}/config.sh
 ${script_full_path}/crear-milestone.sh $version
